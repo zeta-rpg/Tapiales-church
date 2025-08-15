@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import Services from '../components/Services.astro';
+import About from '../components/About.astro';
+import Events from '../components/Events.astro';
+import Contact from '../components/Contact.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Hillsong Buenos Aires - Iglesia en CABA">
+  <Header />
+  <Hero />
+  <Services />
+  <About />
+  <Events />
+  <Contact />
+  <Footer />
+</Layout>
+
+<style>
+  html {
+    padding-top: 80px;
+  }
+
+  @media (max-width: 768px) {
+    html {
+      padding-top: 70px;
+    }
+  }
+</style>
