@@ -6,8 +6,7 @@
     <nav class="nav">
       <div class="nav-brand">
         <a href="/" class="logo">
-          <span class="logo-text">TAPIALES</span>
-          <span class="logo-location">Iglesia Evangelica</span>
+          <img src="../../public/logo-tapiales.png" alt="logo de una cruz dentro de un corazon" class="logo-image" />
         </a>
       </div>
       
@@ -17,9 +16,8 @@
           <li><a href="#servicios" class="nav-link">Servicios</a></li>
           <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
           <li><a href="#eventos" class="nav-link">Eventos</a></li>
-          <li><a href="#contacto" class="nav-link">Contacto</a></li>
         </ul>
-        <a href="#contacto" class="btn btn-primary nav-cta">Visitanos</a>
+        <a href="#contacto" class="btn btn-primary nav-cta">Contacto</a>
       </div>
 
       <div class="nav-toggle" id="nav-toggle">
@@ -51,22 +49,13 @@
     padding: 1rem 0;
   }
 
-  .logo {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .logo-text {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #1e3a8a;
-    line-height: 1;
+  .logo-image {
+    height: 60px;
   }
 
   .logo-location {
     font-size: 0.75rem;
-    color: #f97316;
+    color: #c30a0a;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 500;
@@ -95,7 +84,7 @@
   }
 
   .nav-link:hover {
-    color: #f97316;
+    color: #c30a0a
   }
 
   .nav-link::after {
@@ -105,7 +94,7 @@
     left: 0;
     width: 0;
     height: 2px;
-    background: #f97316;
+    background: #c30a0a;
     transition: width 0.3s ease;
   }
 
@@ -123,7 +112,7 @@
   .nav-toggle span {
     width: 25px;
     height: 3px;
-    background: #1e3a8a;
+    background: #38393e;
     transition: all 0.3s ease;
   }
 
@@ -140,7 +129,7 @@
       background: white;
       flex-direction: column;
       padding: 2rem;
-      transform: translateX(-100%);
+      transform: translateX(100%);
       transition: transform 0.3s ease;
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
@@ -168,7 +157,7 @@
     }
 
     .nav-toggle.active span:nth-child(3) {
-      transform: rotate(-45deg) translate(7px, -6px);
+      transform: rotate(-45deg) translate(5px, -5px);
     }
   }
 </style>

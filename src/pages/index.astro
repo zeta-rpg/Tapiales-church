@@ -9,7 +9,7 @@ import Contact from '../components/Contact.astro';
 import Footer from '../components/Footer.astro';
 ---
 
-<Layout title="Hillsong Buenos Aires - Iglesia en CABA">
+<Layout title="Iglesia Evangelica Tapiales">
   <Header />
   <Hero />
   <Services />
@@ -22,6 +22,21 @@ import Footer from '../components/Footer.astro';
 <style>
   html {
     padding-top: 80px;
+  }
+
+  .btn {
+    background: linear-gradient(135deg, #b22222 0%, #cf0505 100%);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px 0 rgba(249, 22, 22, 0.35);
   }
 
   @media (max-width: 768px) {
