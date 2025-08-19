@@ -161,10 +161,10 @@
     gap: 2rem;
     margin-bottom: 3rem;
   }
-
   .contact-method {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    margin: auto 2rem;
     gap: 1rem;
   }
 
@@ -174,7 +174,7 @@
     justify-content: center;
     width: 50px;
     height: 50px;
-    background: linear-gradient(135deg, #000241 0%, #4a18ff 100%);
+    background: linear-gradient(135deg, #ff4d4d 0%, #ff0000 100%);
     color: white;
     border-radius: 50%;
     flex-shrink: 0;
@@ -190,6 +190,12 @@
   .method-details p {
     color: #6b7280;
     line-height: 1.6;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .social-media h4 {
@@ -218,7 +224,7 @@
   }
 
   .social-link:hover {
-    background: #1e3a8a;
+    background: #550000;
     color: white;
     transform: translateY(-2px);
   }
@@ -233,7 +239,7 @@
   .contact-form h3 {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #1e3a8a;
+    color: #550000;
     margin-bottom: 2rem;
     text-align: center;
   }
@@ -303,6 +309,20 @@
   }
 
   @media (max-width: 768px) {
+
+    .container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .container h2 {
+      text-align: center;
+    }
+
+    .container p.section-subtitle {
+      text-align: center;
+    }
+
     .contact-content {
       grid-template-columns: 1fr;
       gap: 3rem;

@@ -144,7 +144,7 @@
 
   .events-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 2rem;
   }
 
@@ -168,7 +168,7 @@
   .featured .event-content {
     display: flex;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem;  
     gap: 2rem;
   }
 
@@ -198,8 +198,8 @@
     position: absolute;
     top: 1rem;
     right: 1rem;
-    background: #861b1b;
-    color: white;
+    background: #ffdbdb;
+    color: #550000;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
     font-size: 0.75rem;
@@ -215,7 +215,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #001242 0%, #0062ff 100%);
+    background: linear-gradient(135deg, #ff4d4d 0%, #ba0000 100%);
     color: white;
     width: 60px;
     height: 60px;
@@ -258,6 +258,7 @@
   .detail-item {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     gap: 0.5rem;
     font-size: 0.875rem;
     color: #6b7280;
@@ -270,6 +271,7 @@
   @media (max-width: 768px) {
     .events-grid {
       grid-template-columns: 1fr;
+      gap: 4rem;
     }
 
     .featured {
@@ -277,9 +279,21 @@
     }
 
     .featured .event-content {
+      
       flex-direction: column;
+      margin: 1rem auto;
+      justify-content: center;
+    }
+    .event-card .event-content {
       text-align: center;
     }
+
+    .event-date{
+      margin: 2rem auto;
+    }
+
+
+
 
     .featured .event-image {
       min-width: auto;
