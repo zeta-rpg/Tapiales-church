@@ -1,48 +1,59 @@
-# Astro Starter Kit: Basics
+oyecto](ruta/a/tu/imagen.png)
 
-```sh
-npm create astro@latest -- --template basics
-```
+## Descripción
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+**Tapiales Church** es una página web dedicada a la comunidad de la iglesia de Tapiales. Su objetivo es proporcionar información actualizada sobre eventos, horarios de misas y actividades comunitarias, fomentando la conexión y participación de los feligreses.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Este proyecto fue originalmente creado por [bolt.new](https://bolt.new) y posteriormente corregido y adaptado por [Samuel Campos]((https://github.com/zeta-rpg)).
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Características
 
-## 🚀 Project Structure
+- Información actualizada sobre eventos y actividades.
+- Horarios de reuniones y celebraciones.
+- Sección de noticias y anuncios importantes.
+- Diseño responsivo.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Tecnologías Utilizadas
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+-Astro
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Instalación
 
-## 🧞 Commands
+Para ejecutar este proyecto localmente, sigue estos pasos:
 
-All commands are run from the root of the project, from a terminal:
+1. Clona el repositorio:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+   ```bash
+   git clone https://github.com/zeta-rpg/Tapiales-church.git
+Navega al directorio del proyecto:
 
-## 👀 Want to learn more?
+bash
+Copiar
+Editar
+cd Tapiales-church
+Abre el archivo index.html en tu navegador preferido.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Contribuciones
+Las contribuciones son bienvenidas. Si deseas colaborar, por favor sigue estos pasos:
+
+Haz un fork del repositorio.
+
+Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
+
+Realiza tus cambios y haz un commit (git commit -am 'Añadir nueva funcionalidad').
+
+Sube tus cambios a tu fork (git push origin feature/nueva-funcionalidad).
+
+Crea un pull request describiendo tus cambios.
+
+Licencia
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+Agradecimientos
+A bolt.new por la creación original del proyecto.
+
+### 📚 Recursos Adicionales
+
+Para profundizar en la creación de README.md profesionales, te recomiendo revisar la [Guía para Crear READMEs Profesionales](https://github.com/Organization-DevXP/Guia-para-crear-READMEs-Profesionales), que ofrece ejemplos y buenas prácticas.
+
+---
