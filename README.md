@@ -2,7 +2,7 @@ oyecto](ruta/a/tu/imagen.png)
 
 ## Descripción
 
-**Tapiales Church** es una página web dedicada a la comunidad de la iglesia de Tapiales. Su objetivo es proporcionar información actualizada sobre eventos, horarios de misas y actividades comunitarias, fomentando la conexión y participación de los feligreses.
+**Tapiales Church** es una página web dedicada a la comunidad de la iglesia de Tapiales. Su objetivo es proporcionar información actualizada sobre eventos, horarios de reuniones y actividades comunitarias, fomentando la conexión y participación de los feligreses.
 
 Este proyecto fue originalmente creado por [bolt.new](https://bolt.new) y posteriormente corregido y adaptado por [Samuel Campos]((https://github.com/zeta-rpg)).
 
