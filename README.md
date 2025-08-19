@@ -1,4 +1,4 @@
-oyecto](ruta/a/tu/imagen.png)
+
 
 ## Descripción
 
